@@ -1,0 +1,23 @@
+.table {
+  margin: 2rem 0;
+  text-align: center;
+  border: gray;
+  tr {
+    th {
+      text-transform: capitalize;
+    }
+    td:last-of-type {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      border-left: none;
+    }
+  }
+}
+
+.loading,
+.failedToFetching {
+  text-align: center;
+  font-weight: bold;
+  font-family: emoji;
+}
